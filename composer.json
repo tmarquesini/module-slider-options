@@ -1,0 +1,26 @@
+{
+    "name": "visual-commerce/module-slider-options",
+    "description": "Visual Software Slider Options",
+    "type": "magento2-module",
+    "license": "Proprietary",
+    "authors": [
+        {
+            "name": "Visual Software",
+            "email": "comercial@visualsoftware.inf.br"
+        },
+        {
+            "name": "Thiago Marquesini",
+            "email": "contato@marquesini.com.br"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "VisualSoftware\\SliderOptions\\": ""
+        }
+    }
+}
